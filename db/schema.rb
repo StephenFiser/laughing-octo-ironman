@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130910010618) do
+ActiveRecord::Schema.define(:version => 20130910013323) do
 
   create_table "connections", :force => true do |t|
     t.integer  "composite_id"
@@ -26,6 +26,13 @@ ActiveRecord::Schema.define(:version => 20130910010618) do
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
+
+  create_table "entities_works", :id => false, :force => true do |t|
+    t.integer "entity_id"
+    t.integer "work_id"
+  end
+
+  add_index "entities_works", ["entity_id", "work_id"], :name => "index_entities_works_on_entity_id_and_work_id"
 
   create_table "microposts", :force => true do |t|
     t.string   "content"
