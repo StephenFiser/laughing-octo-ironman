@@ -8,6 +8,16 @@ TestApp::Application.routes.draw do
   resources :sessions, only: [:new, :create, :destroy]
   resources :microposts, only: [:create, :destroy]
   resources :relationships, only: [:create, :destroy]
+
+  resources :employees
+  resources :teams
+  resources :divisions
+  resources :departments
+  resources :companies
+  resources :projects
+  resources :tasks
+  resources :steps
+  
   root to: "static_pages#home"
   match '/signup', to: 'users#new'
   match '/signin', to: 'sessions#new'

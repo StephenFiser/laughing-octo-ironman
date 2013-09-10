@@ -25275,3 +25275,987 @@ Connecting to database specified by database.yml
 Connecting to database specified by database.yml
 Connecting to database specified by database.yml
 Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-09 22:22:11 -0500
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = '8Io2Y9tiDuGN5m2xn8rP5Q' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = '8Io2Y9tiDuGN5m2xn8rP5Q' LIMIT 1
+  Rendered static_pages/home.html.erb within layouts/application (5.6ms)
+Compiled departments.css  (51ms)  (pid 29222)
+Compiled divisions.css  (1ms)  (pid 29222)
+Compiled employees.css  (1ms)  (pid 29222)
+Compiled projects.css  (2ms)  (pid 29222)
+Compiled steps.css  (1ms)  (pid 29222)
+Compiled tasks.css  (3ms)  (pid 29222)
+Compiled teams.css  (1ms)  (pid 29222)
+Compiled application.css  (271ms)  (pid 29222)
+Compiled departments.js  (845ms)  (pid 29222)
+Compiled divisions.js  (242ms)  (pid 29222)
+Compiled employees.js  (201ms)  (pid 29222)
+Compiled projects.js  (201ms)  (pid 29222)
+Compiled steps.js  (201ms)  (pid 29222)
+Compiled tasks.js  (200ms)  (pid 29222)
+Compiled teams.js  (197ms)  (pid 29222)
+Compiled application.js  (2395ms)  (pid 29222)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = '8Io2Y9tiDuGN5m2xn8rP5Q' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (3.3ms)
+  Rendered layouts/_footer.html.erb (1.1ms)
+Completed 200 OK in 3907ms (Views: 3822.6ms | ActiveRecord: 23.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-09 22:22:15 -0500
+Served asset /application.css - 304 Not Modified (21ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2013-09-09 22:22:15 -0500
+Served asset /projects.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-09 22:22:15 -0500
+Served asset /bootstrap-carousel.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2013-09-09 22:22:15 -0500
+Served asset /teams.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-09 22:22:15 -0500
+Served asset /jquery.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-09 22:22:15 -0500
+Served asset /static_pages.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/departments.css?body=1" for 127.0.0.1 at 2013-09-09 22:22:15 -0500
+Served asset /departments.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2013-09-09 22:22:15 -0500
+Served asset /tasks.css - 304 Not Modified (28ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2013-09-09 22:22:15 -0500
+Served asset /steps.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/employees.css?body=1" for 127.0.0.1 at 2013-09-09 22:22:15 -0500
+Served asset /employees.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-09 22:22:15 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/divisions.css?body=1" for 127.0.0.1 at 2013-09-09 22:22:15 -0500
+Served asset /divisions.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-09 22:22:15 -0500
+Served asset /bootstrap-transition.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-09 22:22:15 -0500
+Served asset /bootstrap-affix.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-09 22:22:15 -0500
+Served asset /bootstrap-button.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-09 22:22:15 -0500
+Served asset /bootstrap-modal.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-09 22:22:15 -0500
+Served asset /bootstrap-dropdown.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-09 22:22:15 -0500
+Served asset /bootstrap-alert.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-09 22:22:15 -0500
+Served asset /bootstrap-collapse.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-09 22:22:15 -0500
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/departments.js?body=1" for 127.0.0.1 at 2013-09-09 22:22:16 -0500
+Served asset /departments.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-09 22:22:16 -0500
+Served asset /bootstrap-tab.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-09 22:22:16 -0500
+Served asset /static_pages.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-09 22:22:16 -0500
+Served asset /bootstrap-typeahead.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-09-09 22:22:16 -0500
+Served asset /sessions.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-09 22:22:16 -0500
+Served asset /bootstrap-popover.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-09 22:22:16 -0500
+Served asset /bootstrap-tooltip.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/divisions.js?body=1" for 127.0.0.1 at 2013-09-09 22:22:16 -0500
+Served asset /divisions.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-09 22:22:16 -0500
+Served asset /bootstrap.js - 304 Not Modified (51ms)
+
+
+Started GET "/assets/employees.js?body=1" for 127.0.0.1 at 2013-09-09 22:22:16 -0500
+Served asset /employees.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2013-09-09 22:22:16 -0500
+Served asset /projects.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2013-09-09 22:22:16 -0500
+Served asset /steps.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-09 22:22:16 -0500
+Served asset /application.js - 304 Not Modified (40ms)
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2013-09-09 22:22:16 -0500
+Served asset /tasks.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-09-09 22:22:16 -0500
+Served asset /users.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/teams.js?body=1" for 127.0.0.1 at 2013-09-09 22:22:16 -0500
+Served asset /teams.js - 304 Not Modified (2ms)
+
+
+Started GET "/teams" for 127.0.0.1 at 2013-09-09 22:22:21 -0500
+
+ActionController::RoutingError (No route matches [GET] "/teams"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/stephenfiser/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/stephenfiser/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/stephenfiser/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/stephenfiser/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.2ms)
+
+
+Started GET "/teams" for 127.0.0.1 at 2013-09-09 22:22:57 -0500
+Processing by TeamsController#index as HTML
+  [1m[35mTeam Load (3.4ms)[0m  SELECT "entities".* FROM "entities" WHERE "entities"."type" IN ('Team')
+Completed 500 Internal Server Error in 53ms
+
+ActionView::MissingTemplate (Missing template teams/index, application/index with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee]}. Searched in:
+  * "/Users/stephenfiser/projects/action_steps/app/views"
+):
+  actionpack (3.2.13) lib/action_view/path_set.rb:58:in `find'
+  actionpack (3.2.13) lib/action_view/lookup_context.rb:109:in `find'
+  actionpack (3.2.13) lib/action_view/renderer/abstract_renderer.rb:3:in `find_template'
+  actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:34:in `determine_template'
+  actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:10:in `render'
+  actionpack (3.2.13) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.13) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.13) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.13) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.13) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.13) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.13) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /Users/stephenfiser/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+  activesupport (3.2.13) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.13) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.13) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.13) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.13) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.13) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:414:in `_run__3761187573632987793__process_action__1982920912979846060__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.13) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.13) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.13) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.13) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__1651684886149027849__call__3414179478132678062__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/stephenfiser/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/stephenfiser/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/stephenfiser/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/stephenfiser/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.6ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/teams" for 127.0.0.1 at 2013-09-09 22:30:56 -0500
+Processing by TeamsController#index as HTML
+  [1m[36mTeam Load (0.3ms)[0m  [1mSELECT "entities".* FROM "entities" WHERE "entities"."type" IN ('Team')[0m
+  Rendered teams/index.html.erb within layouts/application (6.4ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = '8Io2Y9tiDuGN5m2xn8rP5Q' LIMIT 1
+  Rendered layouts/_header.html.erb (40.8ms)
+  Rendered layouts/_footer.html.erb (1.2ms)
+Completed 200 OK in 437ms (Views: 387.2ms | ActiveRecord: 4.7ms)
+
+
+Started GET "/assets/divisions.css?body=1" for 127.0.0.1 at 2013-09-09 22:30:57 -0500
+Served asset /divisions.css - 304 Not Modified (27ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2013-09-09 22:30:57 -0500
+Served asset /projects.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/employees.css?body=1" for 127.0.0.1 at 2013-09-09 22:30:57 -0500
+Served asset /employees.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-09 22:30:57 -0500
+Served asset /application.css - 304 Not Modified (29ms)
+
+
+Started GET "/assets/departments.css?body=1" for 127.0.0.1 at 2013-09-09 22:30:57 -0500
+Served asset /departments.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-09 22:30:57 -0500
+Served asset /static_pages.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2013-09-09 22:30:57 -0500
+Served asset /steps.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2013-09-09 22:30:57 -0500
+Served asset /tasks.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2013-09-09 22:30:57 -0500
+Served asset /teams.css - 304 Not Modified (30ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-09 22:30:57 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-09 22:30:57 -0500
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-09 22:30:57 -0500
+Served asset /bootstrap-transition.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-09 22:30:57 -0500
+Served asset /bootstrap-affix.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-09 22:30:57 -0500
+Served asset /bootstrap-alert.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-09 22:30:57 -0500
+Served asset /bootstrap-button.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-09 22:30:57 -0500
+Served asset /bootstrap-carousel.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-09 22:30:57 -0500
+Served asset /bootstrap-collapse.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-09 22:30:57 -0500
+Served asset /bootstrap-dropdown.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-09 22:30:57 -0500
+Served asset /bootstrap-modal.js - 304 Not Modified (30ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-09 22:30:57 -0500
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-09 22:30:57 -0500
+Served asset /bootstrap-tab.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-09 22:30:57 -0500
+Served asset /bootstrap-tooltip.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-09 22:30:57 -0500
+Served asset /bootstrap-popover.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-09 22:30:57 -0500
+Served asset /bootstrap-typeahead.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-09 22:30:57 -0500
+Served asset /bootstrap.js - 304 Not Modified (22ms)
+
+
+Started GET "/assets/departments.js?body=1" for 127.0.0.1 at 2013-09-09 22:30:57 -0500
+Served asset /departments.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/divisions.js?body=1" for 127.0.0.1 at 2013-09-09 22:30:57 -0500
+Served asset /divisions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2013-09-09 22:30:57 -0500
+Served asset /projects.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/employees.js?body=1" for 127.0.0.1 at 2013-09-09 22:30:57 -0500
+Served asset /employees.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-09-09 22:30:57 -0500
+Served asset /sessions.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2013-09-09 22:30:57 -0500
+Served asset /steps.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-09 22:30:57 -0500
+Served asset /static_pages.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2013-09-09 22:30:57 -0500
+Served asset /tasks.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/teams.js?body=1" for 127.0.0.1 at 2013-09-09 22:30:57 -0500
+Served asset /teams.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-09 22:30:57 -0500
+Served asset /application.js - 304 Not Modified (61ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-09-09 22:30:57 -0500
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started DELETE "/teams/1" for 127.0.0.1 at 2013-09-09 22:31:02 -0500
+Processing by TeamsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Kp9DfRGNkD3KxU7e3Tu5mvwJ+uL+E8OoE6+j2JXfNi4=", "id"=>"1"}
+  [1m[36mTeam Load (0.3ms)[0m  [1mSELECT "entities".* FROM "entities" WHERE "entities"."type" IN ('Team') AND "entities"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mWork Load (0.1ms)[0m  [1mSELECT "works".* FROM "works" INNER JOIN "entities_works" ON "works"."id" = "entities_works"."work_id" WHERE "entities_works"."entity_id" = 1[0m
+  [1m[35mSQL (14.4ms)[0m  DELETE FROM "entities" WHERE "entities"."type" IN ('Team') AND "entities"."id" = ?  [["id", 1]]
+  [1m[36m (2.3ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/teams
+Completed 302 Found in 140ms (ActiveRecord: 17.8ms)
+
+
+Started GET "/teams" for 127.0.0.1 at 2013-09-09 22:31:02 -0500
+Processing by TeamsController#index as HTML
+  [1m[35mTeam Load (0.3ms)[0m  SELECT "entities".* FROM "entities" WHERE "entities"."type" IN ('Team')
+  Rendered teams/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = '8Io2Y9tiDuGN5m2xn8rP5Q' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (2.5ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 184ms (Views: 181.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-09 22:31:02 -0500
+Served asset /application.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/departments.css?body=1" for 127.0.0.1 at 2013-09-09 22:31:02 -0500
+Served asset /departments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-09 22:31:02 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2013-09-09 22:31:02 -0500
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/employees.css?body=1" for 127.0.0.1 at 2013-09-09 22:31:02 -0500
+Served asset /employees.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/divisions.css?body=1" for 127.0.0.1 at 2013-09-09 22:31:02 -0500
+Served asset /divisions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2013-09-09 22:31:02 -0500
+Served asset /tasks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2013-09-09 22:31:02 -0500
+Served asset /teams.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:02 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2013-09-09 22:31:02 -0500
+Served asset /steps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:02 -0500
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:02 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:02 -0500
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:02 -0500
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:02 -0500
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:02 -0500
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:02 -0500
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:02 -0500
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:02 -0500
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:02 -0500
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:02 -0500
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:02 -0500
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:02 -0500
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:02 -0500
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:02 -0500
+Served asset /departments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:02 -0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/employees.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:02 -0500
+Served asset /employees.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:02 -0500
+Served asset /projects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/divisions.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:02 -0500
+Served asset /divisions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:02 -0500
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:02 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:02 -0500
+Served asset /steps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:02 -0500
+Served asset /tasks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:02 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:02 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:02 -0500
+Served asset /teams.js - 304 Not Modified (0ms)
+
+
+Started GET "/teams/new" for 127.0.0.1 at 2013-09-09 22:31:04 -0500
+Processing by TeamsController#new as HTML
+  Rendered teams/new.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = '8Io2Y9tiDuGN5m2xn8rP5Q' LIMIT 1
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 179ms (Views: 178.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/departments.css?body=1" for 127.0.0.1 at 2013-09-09 22:31:05 -0500
+Served asset /departments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/divisions.css?body=1" for 127.0.0.1 at 2013-09-09 22:31:05 -0500
+Served asset /divisions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2013-09-09 22:31:05 -0500
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-09 22:31:05 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-09 22:31:05 -0500
+Served asset /static_pages.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/employees.css?body=1" for 127.0.0.1 at 2013-09-09 22:31:05 -0500
+Served asset /employees.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2013-09-09 22:31:05 -0500
+Served asset /steps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2013-09-09 22:31:05 -0500
+Served asset /teams.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2013-09-09 22:31:05 -0500
+Served asset /tasks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:05 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:05 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:05 -0500
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:05 -0500
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:05 -0500
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:05 -0500
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:05 -0500
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:05 -0500
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:05 -0500
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:05 -0500
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:05 -0500
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:05 -0500
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:05 -0500
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:05 -0500
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:05 -0500
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:05 -0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:05 -0500
+Served asset /departments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/employees.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:05 -0500
+Served asset /employees.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/divisions.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:05 -0500
+Served asset /divisions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:05 -0500
+Served asset /projects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:05 -0500
+Served asset /sessions.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:05 -0500
+Served asset /steps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:05 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:05 -0500
+Served asset /tasks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:05 -0500
+Served asset /teams.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:05 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:05 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/teams" for 127.0.0.1 at 2013-09-09 22:31:10 -0500
+Processing by TeamsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Kp9DfRGNkD3KxU7e3Tu5mvwJ+uL+E8OoE6+j2JXfNi4=", "team"=>{"name"=>"Sales"}, "commit"=>"Create new team"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (15.8ms)[0m  INSERT INTO "entities" ("created_at", "name", "type", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Tue, 10 Sep 2013 03:31:10 UTC +00:00], ["name", "Sales"], ["type", "Team"], ["updated_at", Tue, 10 Sep 2013 03:31:10 UTC +00:00]]
+  [1m[36m (15.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/teams/3
+Completed 302 Found in 37ms (ActiveRecord: 31.0ms)
+
+
+Started GET "/teams/3" for 127.0.0.1 at 2013-09-09 22:31:10 -0500
+Processing by TeamsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mTeam Load (0.2ms)[0m  SELECT "entities".* FROM "entities" WHERE "entities"."type" IN ('Team') AND "entities"."id" = ? LIMIT 1  [["id", "3"]]
+  [1m[36mConnection Load (0.1ms)[0m  [1mSELECT "connections".* FROM "connections" WHERE "connections"."composite_id" = 3[0m
+  [1m[35mWork Load (0.2ms)[0m  SELECT "works".* FROM "works" INNER JOIN "entities_works" ON "works"."id" = "entities_works"."work_id" WHERE "entities_works"."entity_id" = 3 AND "works"."type" = 'Project'
+  Rendered teams/show.html.erb within layouts/application (6.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = '8Io2Y9tiDuGN5m2xn8rP5Q' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (2.3ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 266ms (Views: 257.8ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-09 22:31:10 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-09 22:31:10 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2013-09-09 22:31:10 -0500
+Served asset /steps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.css?body=1" for 127.0.0.1 at 2013-09-09 22:31:10 -0500
+Served asset /departments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/divisions.css?body=1" for 127.0.0.1 at 2013-09-09 22:31:10 -0500
+Served asset /divisions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/employees.css?body=1" for 127.0.0.1 at 2013-09-09 22:31:10 -0500
+Served asset /employees.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2013-09-09 22:31:10 -0500
+Served asset /tasks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2013-09-09 22:31:10 -0500
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2013-09-09 22:31:10 -0500
+Served asset /teams.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:10 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:10 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:10 -0500
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:10 -0500
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:10 -0500
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:10 -0500
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:10 -0500
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:10 -0500
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:10 -0500
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:10 -0500
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:10 -0500
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:10 -0500
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:10 -0500
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:10 -0500
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:10 -0500
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:10 -0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:10 -0500
+Served asset /departments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/divisions.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:10 -0500
+Served asset /divisions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/employees.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:10 -0500
+Served asset /employees.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:10 -0500
+Served asset /projects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:10 -0500
+Served asset /sessions.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:11 -0500
+Served asset /steps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:11 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:11 -0500
+Served asset /tasks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:11 -0500
+Served asset /teams.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:11 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-09 22:31:11 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/employees" for 127.0.0.1 at 2013-09-09 22:31:28 -0500
+Processing by EmployeesController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Kp9DfRGNkD3KxU7e3Tu5mvwJ+uL+E8OoE6+j2JXfNi4=", "employee"=>{"entity_id"=>"3", "name"=>"Jim Halpert"}, "commit"=>"New"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "entities" ("created_at", "name", "type", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Tue, 10 Sep 2013 03:31:28 UTC +00:00], ["name", "Jim Halpert"], ["type", "Employee"], ["updated_at", Tue, 10 Sep 2013 03:31:28 UTC +00:00]]
+  [1m[35m (2.2ms)[0m  commit transaction
+  [1m[36mEntity Load (0.3ms)[0m  [1mSELECT "entities".* FROM "entities" WHERE "entities"."id" = ? LIMIT 1[0m  [["id", "3"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "connections" ("composite_id", "created_at", "member_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["composite_id", 3], ["created_at", Tue, 10 Sep 2013 03:31:28 UTC +00:00], ["member_id", 4], ["updated_at", Tue, 10 Sep 2013 03:31:28 UTC +00:00]]
+  [1m[35m (1.4ms)[0m  commit transaction
+  Rendered employees/create.js.erb (0.8ms)
+Completed 200 OK in 47ms (Views: 19.0ms | ActiveRecord: 5.3ms)
+
+
+Started POST "/employees" for 127.0.0.1 at 2013-09-09 22:31:34 -0500
+Processing by EmployeesController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Kp9DfRGNkD3KxU7e3Tu5mvwJ+uL+E8OoE6+j2JXfNi4=", "employee"=>{"entity_id"=>"3", "name"=>"Dwight Shrute"}, "commit"=>"New"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "entities" ("created_at", "name", "type", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Tue, 10 Sep 2013 03:31:34 UTC +00:00], ["name", "Dwight Shrute"], ["type", "Employee"], ["updated_at", Tue, 10 Sep 2013 03:31:34 UTC +00:00]]
+  [1m[36m (2.4ms)[0m  [1mcommit transaction[0m
+  [1m[35mEntity Load (0.1ms)[0m  SELECT "entities".* FROM "entities" WHERE "entities"."id" = ? LIMIT 1  [["id", "3"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "connections" ("composite_id", "created_at", "member_id", "updated_at") VALUES (?, ?, ?, ?)  [["composite_id", 3], ["created_at", Tue, 10 Sep 2013 03:31:34 UTC +00:00], ["member_id", 5], ["updated_at", Tue, 10 Sep 2013 03:31:34 UTC +00:00]]
+  [1m[36m (2.3ms)[0m  [1mcommit transaction[0m
+  Rendered employees/create.js.erb (0.1ms)
+Completed 200 OK in 37ms (Views: 2.2ms | ActiveRecord: 6.3ms)

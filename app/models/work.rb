@@ -1,5 +1,15 @@
 class Work < ActiveRecord::Base
 	include ConnectionMethods
-	has_and_belongs_to_many :entities
-  attr_accessible :title, :type
+	attr_accessor :entity_id
+	attr_accessible :entity_id, :title
+
+  	has_and_belongs_to_many :entities
+
+  	def teams 
+  		self.entities.where(type: "Team")
+  	end
+
+  	def employees
+  		self.entities.where(type: "Employee")
+  	end
 end

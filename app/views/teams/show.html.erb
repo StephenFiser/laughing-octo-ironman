@@ -1,0 +1,30 @@
+<%= link_to "Back to teams", teams_path, class: "btn btn-inverse" %>
+
+
+<h1><%= @team.name %></h1>
+<h3>Team Members</h3>
+
+	<%= form_for(:employee, url: { controller: 'employees', action: 'create'}, remote: true, id: "members") do |f| %>
+		<%= f.hidden_field :entity_id, value: @team.id %>
+		<%= f.text_field :name, id: "Name", placeholder: "Name", class: "pull-left" %>
+		<%=f.submit "New", class: "btn btn-primary" %>
+	<% end %>
+
+<ul id="team_members">
+	<% @team_members.each do |member| %>
+		<li><%= member.name %></li>
+	<% end %>
+</ul>
+<h3>Current Projects</h3>
+
+	<%= form_for(:project, url: { controller: 'projects', action: 'create'}) do |f| %>
+		<%= f.hidden_field :entity_id, value: @team.id %>
+		<%= f.text_field :title, id: "Title", placeholder: "Title", class: "pull-left" %>
+		<%=f.submit "New", class: "btn btn-primary" %>
+	<% end %>
+	
+<ul id="projects">
+	<% @projects.each do |project| %>
+		<li><%= project.title %></li>
+	<% end %>
+</ul>

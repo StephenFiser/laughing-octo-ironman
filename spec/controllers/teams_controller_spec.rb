@@ -9,3 +9,4 @@ describe TeamsController, "#create" do
     Team.all.length.should eq(1)
   end
 end
+
