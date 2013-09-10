@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe Team do
-  it "is composed of employees" do
+  it "should be composed of employees" do
   	team = Team.create!(name: "Dunder Mifflin")
   	jim = Employee.create!(name: "Jim Halpert")
   	dwight = Employee.create!(name: "Dwight Shrute")
